@@ -15,7 +15,7 @@ class FiveN
 		for(int i=1;i<=5;i++)
 		{
 			int result=n*i;
-			System.out.println(result);
+			System.out.print(result+" ");
 		}
 	}
 }
