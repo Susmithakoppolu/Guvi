@@ -11,8 +11,14 @@ class PowerN
 	{
 		// your code goes here
 		Scanner sc=new Scanner(System.in);
-		double n=sc.nextInt();
-		double p=sc.nextInt();
-		System.out.println(Math.pow(n,p));
+		int n=sc.nextInt();
+		int p=sc.nextInt();
+		int result=1;
+		while(p!=0)
+		{
+		    result*=n;
+		    --p;
+		}
+		System.out.println(result);
 	}
 }
