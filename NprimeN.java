@@ -13,19 +13,19 @@ class NprimeN
 		Scanner sc=new Scanner(System.in);
 		int a=sc.nextInt();
 		int b=sc.nextInt();
-		for (int i = a+1; i < b; i++)         
+		for (int i=a+1; i<b; i++)         
     { 		  	  
       int counter=0; 	  
-      for( int num =i; num>=1; num--)
+      for( int num=i; num>=1; num--)
 	     {
          if(i%num==0)
 	        {
- 		        counter = counter + 1;
+ 		        counter=counter + 1;
 	         }
 	       }
-	      if (counter ==2)
+	      if (counter==2)
 	       {
-	  	     System.out.println(i);
+	  	     System.out.print(i+" ");
 	        }
       }
 	}
