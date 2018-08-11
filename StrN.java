@@ -11,9 +11,9 @@ class StrN
 	{
 		 
 	Scanner sc=new Scanner(System.in);
-	String str=sc.nextLine();
+	String str=sc.next();
 	int n=sc.nextInt();
-  for(int i=0;i<n;i++)
+        for(int i=0;i<n;i++)
 	System.out.println(str);
 
 	}
