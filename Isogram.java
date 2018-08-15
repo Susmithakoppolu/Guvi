@@ -21,7 +21,7 @@ class Isogram
         if(s.length() == mySet.size()){
             System.out.println("Yes");
         }else{
-            System.out.println("NO");
+            System.out.println("No");
         }
     }
 }
