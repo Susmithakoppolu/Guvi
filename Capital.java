@@ -12,7 +12,14 @@ class Capital
 		// your code goes here
 		Scanner sc=new Scanner(System.in);
 		String s=sc.nextLine();
-		String s1=s.substring(0,1).toUpperCase();
-		System.out.println(s1+s.substring(1));
+		String str=toFirstCharUpperAll(s);
+		System.out.println(str);
 	}
+	public  static String toFirstCharUpperAll(String string){
+                      StringBuffer sb=new StringBuffer(string);
+                      for(int i=0;i<sb.length();i++)
+                       if(i==0 || sb.charAt(i-1)==' ')//first letter to uppercase by default
+                       sb.setCharAt(i, Character.toUpperCase(sb.charAt(i)));
+                    return sb.toString();
+}
 }
