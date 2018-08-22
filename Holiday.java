@@ -8,7 +8,7 @@ class Holiday
 		
 		Scanner sc=new Scanner(System.in);
 		String str=sc.nextLine();
-		if(str.equals("saturday") || str.equals("sunday"))
+		if(str.equals("Saturday") || str.equals("Sunday"))
 		System.out.println("yes");
 		else
 		System.out.println("no");
