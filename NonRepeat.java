@@ -1,7 +1,7 @@
 import java.util.*;
 import java.lang.*;
 import java.io.*;
-class NonRepeat
+class Ideone
 {
 	public static void main (String[] args) throws java.lang.Exception
 	{
@@ -14,6 +14,12 @@ class NonRepeat
         {
             a[i] = s.nextInt();
         }
+        if(n==1)
+        {
+        	for(int i=0;i<n;i++)
+        	System.out.println(a[i]);
+        }
+        else{
         for(int i = 0; i < n; i++)
         {
             for(int j = 0; j < n; j++)
@@ -37,5 +43,6 @@ class NonRepeat
                 System.out.print(a[i]);
             }
         }
+	}
 	}
 }
