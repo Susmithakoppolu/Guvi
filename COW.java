@@ -10,7 +10,7 @@ class COW
 		String str1=sc.nextLine();
 		String words[]=str.split(" ");
 		int count=0;
-		for(int i=0;i<str1.length();i++)
+		for(int i=0;i<words.length;i++)
 		{
 		
 				if(words[i].equals(str1))
