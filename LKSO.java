@@ -26,11 +26,14 @@ class LKSO
 	for(int i=0;i<n;i++)
 	{
 		if(i!=n-1)
+		{
 		if(a[i]<k)
 		System.out.print(a[i]+" ");
-		else
+		}
+		else{
 		if(a[i]<k)
 		System.out.print(a[i]);
+		}
 		
 	}
 	
