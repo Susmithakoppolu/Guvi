@@ -19,8 +19,10 @@ class ERKT
 		count++;
 		}
 		if(count>1)
-		if(count==k)
+		if(count==k){
 		System.out.println(a[i]);
+		break;
+		}
 		}
 	}
 }
