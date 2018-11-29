@@ -9,7 +9,8 @@ class WP
 		String s1=sc.nextLine();
 		String s2=sc.next();
 		String[] s3=s1.split(" ");
-		for(int i=0;i<s3.length;i++)
+		int i=0;
+		for(i=0;i<s3.length;i++)
 		{
 			if(s3[i].charAt(0)==s2.charAt(0))
 			{
