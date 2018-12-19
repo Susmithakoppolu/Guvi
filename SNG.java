@@ -4,7 +4,7 @@ import java.util.Iterator;
 import java.util.Scanner;
 import java.util.TreeSet;
 
-public class SNG 
+class SNG 
 { 
 static TreeSet t= new TreeSet();
 	
